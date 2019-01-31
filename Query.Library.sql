@@ -41,7 +41,7 @@ AS
 	JOIN tbl_borrower d ON a2.card_number = d.card_number
 	WHERE branch_name = @BranchName and date_due = @DateDue
 
-EXEC uspBooksDueToday 'Sharpstown', '10/10/2018'
+EXEC uspBooksDueToday 'Sharpstown', '10/22/2018'
 
 
 
